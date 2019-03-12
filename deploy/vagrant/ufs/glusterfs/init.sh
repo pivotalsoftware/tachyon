@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # install gluster
-sudo wget -q http://download.gluster.org/pub/gluster/glusterfs/3.5/LATEST/CentOS/glusterfs-epel.repo -O /etc/yum.repos.d/glusterfs-epel.repo
+sudo wget -q https://download.gluster.org/pub/gluster/glusterfs/3.5/LATEST/CentOS/glusterfs-epel.repo -O /etc/yum.repos.d/glusterfs-epel.repo
 sudo yum install -q -y glusterfs-server glusterfs-client
 
 # config gluster

@@ -8,7 +8,7 @@ sudo yum install -y -q wget
 # install maven
 if [ ! -f apache-maven-3.2.3-bin.tar.gz ]
 then
-    wget -q http://mirrors.gigenet.com/apache/maven/maven-3/3.2.3/binaries/apache-maven-3.2.3-bin.tar.gz 
+    wget -q https://mirrors.gigenet.com/apache/maven/maven-3/3.2.3/binaries/apache-maven-3.2.3-bin.tar.gz 
 fi
 
 if [ -f apache-maven-3.2.3-bin.tar.gz ]
