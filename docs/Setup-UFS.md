@@ -13,7 +13,7 @@ the following:
 
 ## HDFS
 
-The additional prerequisite for this part is [Hadoop HDFS](http://www.michael-noll.com/tutorials
+The additional prerequisite for this part is [Hadoop HDFS](https://www.michael-noll.com/tutorials
 /running-hadoop-on-ubuntu-linux-multi-node-cluster/). By default, Tachyon is set to use HDFS version
 1.0.4. You can use another Hadoop version by changing the hadoop.version tag in pom.xml in Tachyon
 and recompiling it. You can also set the hadoop version when compiling with maven:
@@ -63,8 +63,8 @@ $ java -Xmx3g -Dfs.s3n.awsAccessKeyId=MY_ACCESS_KEY -Dfs.s3n.awsSecretAccessKey=
 
 ### Prerequisites
 
-You need to install [GlusterFS](http://www.gluster.org) on your cluster and create a GlusterFS
-volume [GlusterFS usage](http://www.gluster.org/community/documentation/index.php/QuickStart).
+You need to install [GlusterFS](https://www.gluster.org) on your cluster and create a GlusterFS
+volume [GlusterFS usage](https://www.gluster.org/community/documentation/index.php/QuickStart).
 
 Compile Tachyon with GlusterFS: `mvn clean install -Dtest.profile=glusterfs -Dhadoop.version=2.3.0
 -Dtachyon.underfs.glusterfs.mounts=/vol -Dtachyon.underfs.glusterfs.volumes=testvol `, where /vol is

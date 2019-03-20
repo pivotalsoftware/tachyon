@@ -11,7 +11,7 @@ Mac OS X comes with Apache Maven 3 built in, and can be located at `/usr/share/m
 
 # Linux
 
-1.  Download [Maven Binary](http://maven.apache.org/download.cgi)
+1.  Download [Maven Binary](https://maven.apache.org/download.cgi)
 2.  Extract the distribution archive, i.e.
     `apache-maven-3.0.5-bin.tar.gz` to the directory you wish to install
     Maven 3.0.5. These instructions assume you chose

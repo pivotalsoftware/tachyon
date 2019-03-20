@@ -11,7 +11,7 @@ Mesos, Shark, and Tachyon.
 # Launching a Cluster
 
 To run a Tachyon cluster on EC2, first sign up for an Amazon EC2 account
-on the [Amazon Web Services site](http://aws.amazon.com/). Then,
+on the [Amazon Web Services site](https://aws.amazon.com/). Then,
 download Spark to your local machine:
 
     $ wget https://github.com/downloads/mesos/spark/spark-0.6.0-sources.tar.gz

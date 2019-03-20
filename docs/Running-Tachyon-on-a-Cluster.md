@@ -7,7 +7,7 @@ title: Running Tachyon on a Cluster
 
 First download the `Tachyon` tar file, and extract it.
 
-    $ wget http://tachyon-project.org/downloads/tachyon-{{site.TACHYON_RELEASED_VERSION}}-bin.tar.gz
+    $ wget https://www.alluxio.org{{site.TACHYON_RELEASED_VERSION}}-bin.tar.gz
     $ tar xvfz tachyon-{{site.TACHYON_RELEASED_VERSION}}-bin.tar.gz
 
 In the `tachyon/conf` directory, copy `tachyon-env.sh.template` to `tachyon-env.sh`. Make sure
@@ -21,7 +21,7 @@ Now, you can start Tachyon:
     $ ./bin/tachyon-start.sh # use the right parameters here. e.g. all Mount
 
 To verify that Tachyon is running, you can visit
-[http://tachyon.master.hostname:19999](http://tachyon.master.hostname:19999), check the log in the
+[https://tachyon.master.hostname:19999](https://tachyon.master.hostname:19999), check the log in the
 folder tachyon/logs, or run a sample program:
 
     $ ./bin/tachyon runTests
