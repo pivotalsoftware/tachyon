@@ -14,7 +14,7 @@ for a more succinct description of all the configuration options Tachyon has.
 ## HDFS
 
 For information about setting up HDFS, see
-[Getting Started With Hadoop](http://wiki.apache.org/hadoop/GettingStartedWithHadoop).
+[Getting Started With Hadoop](https://wiki.apache.org/hadoop/GettingStartedWithHadoop).
 
 Note the name of machine running your NameNode, as you will need to tell Tachyon where this is. In
 your tachyon-env.sh (or environment) you'll need to include:
@@ -27,7 +27,7 @@ Tachyon uses ZooKeeper to achieve master fault tolerance. It is also required in
 storage (such as HDFS) for writing logs and images.
 
 ZooKeeper must be set up independently (see
-[ZooKeeper Getting Started](http://zookeeper.apache.org/doc/r3.1.2/zookeeperStarted.html))
+[ZooKeeper Getting Started](https://zookeeper.apache.org/doc/r3.1.2/zookeeperStarted.html))
 and then in conf/tachyon-env.sh, these java options should be used:
 
 <table class="table">

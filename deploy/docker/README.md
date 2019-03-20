@@ -148,7 +148,7 @@ you'll have output in your terminal like:
     WORKER_IP:                 172.17.0.12    
     **************************************************    
     
-    visit Tachyon Web UI at: http://172.17.0.10:19999
+    visit Tachyon Web UI at: https://172.17.0.10:19999
     
     ssh into master via:     ssh -i /tmp/id_rsa13436 -o UserKnownHostsFile=/dev/null -o     StrictHostKeyChecking=no root@172.17.0.10    
     you can also ssh into workers via the command above with the ip substituted    

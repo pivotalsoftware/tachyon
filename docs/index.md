@@ -22,7 +22,7 @@ Stack ([BDAS](https://amplab.cs.berkeley.edu/bdas/)) and also part of the
 [Releases and Downloads](https://github.com/amplab/tachyon/releases) |
 [User Documentation](#user-documentation) |
 [Developer Documentation](#developer-documentation) |
-[Meetup Group](http://www.meetup.com/Tachyon/) |
+[Meetup Group](https://www.meetup.com/Tachyon/) |
 [JIRA](https://tachyon.atlassian.net/browse/TACHYON) |
 [User Mailing List](https://groups.google.com/forum/?fromgroups#!forum/tachyon-users)
 
@@ -88,9 +88,9 @@ understand an existing underlayer storage system.
 
 **Tachyon Presentations:**
 
-* Strata and Hadoop World 2014 (October, 2014) [pdf](http://goo.gl/fP9qkF) [pptx](http://goo.gl/GOyUbI)
-* Spark Summit 2014 (July, 2014) [pdf](http://goo.gl/DKrE4M)
-* Strata and Hadoop World 2013 (October, 2013) [pdf](http://goo.gl/AHgz0E)
+* Strata and Hadoop World 2014 (October, 2014) [pdf](https://goo.gl/fP9qkF) [pptx](https://goo.gl/GOyUbI)
+* Spark Summit 2014 (July, 2014) [pdf](https://goo.gl/DKrE4M)
+* Strata and Hadoop World 2013 (October, 2013) [pdf](https://goo.gl/AHgz0E)
 
 # Developer Documentation
 
@@ -105,7 +105,7 @@ Tachyon Mini Courses:
 * [AMPCamp 5](http://ampcamp.berkeley.edu/5/exercises/)
 * [Strata 2014](http://ampcamp.berkeley.edu/big-data-mini-course/)
 
-[Hot Rod Hadoop With Tachyon on Fedora 21](http://timothysc.github.io/blog/2014/02/17/bdas-tachyon/)
+[Hot Rod Hadoop With Tachyon on Fedora 21](https://timothysc.github.io/blog/2014/02/17/bdas-tachyon/)
 
 # Support or Contact
 
@@ -118,7 +118,7 @@ contact [Haoyuan](mailto:haoyuan@cs.berkeley.edu).
 # Acknowledgement
 
 Tachyon is an open source project started in the
-[UC Berkeley AMP Lab](http://amplab.cs.berkeley.edu). This research and development is supported in
+[UC Berkeley AMP Lab](https://amplab.cs.berkeley.edu). This research and development is supported in
 part by NSF CISE Expeditions award CCF-1139158 and DARPA XData Award FA8750-12-2-0331, and gifts
 from Amazon Web Services, Google, SAP, Apple, Inc., Cisco, Clearstory Data, Cloudera, Ericsson,
 Facebook, GameOnTalis, General Electric, Hortonworks, Huawei, Intel, Microsoft, NetApp, Oracle,

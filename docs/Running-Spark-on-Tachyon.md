@@ -11,7 +11,7 @@ spark/core/pom.xml.
 
 ## Input/Output data with Tachyon
 
-The additional prerequisite for this part is [Spark](http://spark-project.org/docs/latest/) (0.6 or
+The additional prerequisite for this part is [Spark](https://spark.apache.org/docs/latest/) (0.6 or
 later). We also assume that the user is running on Tachyon {{site.TACHYON_RELEASED_VERSION}} or
 later and has set up Tachyon and Hadoop in accordance to these guides
 [Local Mode](Running-Tachyon-Locally.html) or [Cluster Mode](Running-Tachyon-on-a-Cluster.html).
@@ -73,9 +73,9 @@ Put a file X into HDFS. When running a Spark shell, you can now point to any tac
 
 ## Persist Spark RDDs into Tachyon
 
-For this feature, you need to run [Spark](http://spark-project.org/) (1.0 or
+For this feature, you need to run [Spark](https://spark.apache.org/) (1.0 or
 later) and Tachyon (0.4.1 or later).  Please refer to
-[Spark Doc](http://spark.apache.org/docs/latest/programming-guide.html) on the benefit of this
+[Spark Doc](https://spark.apache.org/docs/latest/programming-guide.html) on the benefit of this
 feature.
 
 Your Spark programs need to set two parameters, `spark.tachyonStore.url` and

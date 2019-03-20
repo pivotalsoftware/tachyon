@@ -5,7 +5,7 @@ title: Thrift
 
 # Mac OSX
 
-Before you can get [Apache Thift](http://thrift.apache.org) installed, you will first need to setup
+Before you can get [Apache Thift](https://thrift.apache.org) installed, you will first need to setup
 command-line support.  To do this, you will need to:
 
 Install Xcode from the Mac App Store
@@ -15,9 +15,9 @@ Launch Xcode, open the Preferences, select Downloads, and install
 
 ## Homebrew
 
-This section explains install Apache Thrift via [Homebrew](http://brew.sh/).
+This section explains install Apache Thrift via [Homebrew](https://brew.sh/).
 
-First, install [Homebrew](http://brew.sh/)
+First, install [Homebrew](https://brew.sh/)
 
 Here are the commands for Homebrew installation:
 
@@ -28,7 +28,7 @@ Use Homebrew to install autoconf, automake, libtool and pkg-config:
 
     brew install autoconf automake libtool pkg-config libevent
 
-Use Homebrew to install [Boost](http://www.boost.org/)
+Use Homebrew to install [Boost](https://www.boost.org/)
 
     brew install boost
 
@@ -38,11 +38,11 @@ Install Thrift
 
 ## MacPorts
 
-This section explains install Apache Thrift via [MacPorts](http://macports.org).
+This section explains install Apache Thrift via [MacPorts](https://macports.org).
 
-If you use [MacPorts](http://macports.org), the following instruction may help
+If you use [MacPorts](https://macports.org), the following instruction may help
 
-Install MacPorts from [sourceforge](http://sourceforge.net/projects/macports/)
+Install MacPorts from [sourceforge](https://sourceforge.net/projects/macports/)
 
 Update Port itself:
 
@@ -52,7 +52,7 @@ Use Port to install flex, bison, autoconf, automake, libtool and pkgconfig:
 
     sudo port install flex, bison, autoconf automake libtool pkgconfig libevent
 
-Use Port to install [Boost](http://www.boost.org/)
+Use Port to install [Boost](https://www.boost.org/)
 
     sudo port install boost
 
@@ -74,7 +74,7 @@ not found". Without the -L, you may fail during linking.
 
 # Linux
 
-[Reference](http://thrift.apache.org/docs/install/)
+[Reference](https://thrift.apache.org/docs/install/)
 
 ## Debian/Ubuntu
 
@@ -95,7 +95,7 @@ Debian Lenny Users need some packages from backports
 
     sudo apt-get -t lenny-backports install automake libboost-test-dev
 
-[Build The Thrift](http://thrift.apache.org/docs/BuildingFromSource)
+[Build The Thrift](https://thrift.apache.org/docs/BuildingFromSource)
 
     ./configure --with-boost=/usr/local
     make

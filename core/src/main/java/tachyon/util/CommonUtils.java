@@ -87,7 +87,7 @@ public final class CommonUtils {
     // after the process is done. As of java 7, you can have the process redirect to System.out
     // and System.err without forking a process.
     // TODO when java 6 support is dropped, switch to
-    // http://docs.oracle.com/javase/7/docs/api/java/lang/ProcessBuilder.html#inheritIO()
+    // https://docs.oracle.com/javase/7/docs/api/java/lang/ProcessBuilder.html#inheritIO()
     Closer closer = Closer.create();
     try {
       ByteStreams.copy(closer.register(process.getInputStream()), System.out);

@@ -49,14 +49,14 @@ filesystem)
 
 -   To quickly test the working of some APIs in an interactive manner, you may
 leverage the Scala shell, as discussed in this
-[blog](http://scala4fun.tumblr.com/post/84791653967/interactivejavacoding).
+[blog](https://scala4fun.tumblr.com/post/84791653967/interactivejavacoding).
 
 -   Run tests with a different Hadoop version: ``mvn -Dhadoop.version=2.2.0 clean test``
 
 ### Coding Style
 
 -   Please follow the style of the existing codebase. Specifically, we use
-    [Google Java style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html),
+    [Google Java style](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html),
     with the following changes or deviations:
     -  Maximum line length of **100** characters.
     -  Imported packages should be in [this order](resources/order.importorder), then in
@@ -70,11 +70,11 @@ leverage the Scala shell, as discussed in this
     -  Static variable names should be prefixed with `s`, for example `public static String sUnderFSAddress;`
     -  Do not add `public` or `abstract` modifier to methods defined in an Java interface because
        method declaration in the body of an interface is implicitly public and abstract.
-       (http://docs.oracle.com/javase/specs/jls/se7/html/jls-9.html#jls-9.4)
+       (https://docs.oracle.com/javase/specs/jls/se7/html/jls-9.html#jls-9.4)
 -   You can download our [Eclipse formatter](resources/tachyon-code-formatter-eclipse.xml)
     -  If you use IntelliJ IDEA: you can either use our formatter with the help from
        [Eclipse Code Formatter](https://github.com/krasa/EclipseCodeFormatter#instructions)
-       or use [Eclipse Code Formatter Plugin](http://plugins.jetbrains.com/plugin/6546) in IntelliJ
+       or use [Eclipse Code Formatter Plugin](https://plugins.jetbrains.com/plugin/6546) in IntelliJ
        IDEA
 -   Tachyon is using SLF4J for logging with typical usage pattern of:
 
@@ -128,15 +128,15 @@ You may also have to add the classpath variable M2_REPO by running:
 
 ### Presentations:
 
--   Strata and Hadoop World 2014 (October, 2014) [pdf](http://www.cs.berkeley.edu/~haoyuan/talks/Tachyon_2014-10-16-Strata.pdf) [pptx](http://www.cs.berkeley.edu/~haoyuan/talks/Tachyon_2014-10-16-Strata.pptx)
--   Spark Summit 2014 (July, 2014) [pdf](http://goo.gl/DKrE4M)
--   Strata and Hadoop World 2013 (October, 2013) [pdf](http://goo.gl/AHgz0E)
+-   Strata and Hadoop World 2014 (October, 2014) [pdf](https://www.cs.berkeley.edu/~haoyuan/talks/Tachyon_2014-10-16-Strata.pdf) [pptx](https://www.cs.berkeley.edu/~haoyuan/talks/Tachyon_2014-10-16-Strata.pptx)
+-   Spark Summit 2014 (July, 2014) [pdf](https://goo.gl/DKrE4M)
+-   Strata and Hadoop World 2013 (October, 2013) [pdf](https://goo.gl/AHgz0E)
 
 ### Readings
 
--   [Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks](http://www.cs.berkeley.edu/~haoyuan/papers/2014_socc_tachyon.pdf)
+-   [Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks](https://www.cs.berkeley.edu/~haoyuan/papers/2014_socc_tachyon.pdf)
 Haoyuan Li, Ali Ghodsi, Matei Zaharia, Scott Shenker, Ion Stoica, *SOCC 2014*.
--   [Reliable, Memory Speed Storage for Cluster Computing Frameworks](http://www.cs.berkeley.edu/~haoyuan/papers/2014_EECS_tachyon.pdf)
+-   [Reliable, Memory Speed Storage for Cluster Computing Frameworks](https://www.cs.berkeley.edu/~haoyuan/papers/2014_EECS_tachyon.pdf)
 Haoyuan Li, Ali Ghodsi, Matei Zaharia, Scott Shenker, Ion Stoica, *UC Berkeley EECS 2014*.
--   [Tachyon: Memory Throughput I/O for Cluster Computing Frameworks](http://www.cs.berkeley.edu/~haoyuan/papers/2013_ladis_tachyon.pdf)
+-   [Tachyon: Memory Throughput I/O for Cluster Computing Frameworks](https://www.cs.berkeley.edu/~haoyuan/papers/2013_ladis_tachyon.pdf)
 Haoyuan Li, Ali Ghodsi, Matei Zaharia, Eric Baldeschwieler, Scott Shenker, Ion Stoica, *LADIS 2013*.

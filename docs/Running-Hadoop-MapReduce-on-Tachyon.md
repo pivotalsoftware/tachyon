@@ -38,7 +38,7 @@ Tachyon jar amongst all the nodes in the cluster. This will allow the TaskTracke
 have all the requisite executables to interface with Tachyon.
 
 We are presented with three options that for distributing the jars as outlined by this
-[guide](http://blog.cloudera.com/blog/2011/01/how-to-include-third-party-libraries-in-your-map-reduce-job/)
+[guide](https://blog.cloudera.com/blog/2011/01/how-to-include-third-party-libraries-in-your-map-reduce-job/)
 from Cloudera.
 
 Assuming that Tachyon will be used prominently, it is best to ensure that the Tachyon jar will

@@ -5,7 +5,7 @@ title: Running Tachyon on Amazon EC2
 
 ## Deploy Tachyon Cluster on Amazon EC2 via Vagrant
 
-[Vagrant](https://www.vagrantup.com/downloads.html) can spawn Tachyon cluster in the cloud at [AWS EC2 VPC](http://aws.amazon.com/vpc/).
+[Vagrant](https://www.vagrantup.com/downloads.html) can spawn Tachyon cluster in the cloud at [AWS EC2 VPC](https://aws.amazon.com/vpc/).
 
 A set of pre-configured Vagrant recipe and shell scripts can be found at `tachyon/deploy/vagrant`
 directory:
@@ -34,9 +34,9 @@ The `run_aws.sh` script allows you to launch a Tachyon VPC on Amazon EC2. It rea
 ## Prerequisite
 * **Install Vagrant**. You can download and install [Vagrant](https://www.vagrantup.com/downloads.html). Version 1.6.5 and higher is required
 
-* **Obtain EC2 key pair**. This is your EC2 login keypair. You can find information at http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html
+* **Obtain EC2 key pair**. This is your EC2 login keypair. You can find information at https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html
 
-* **Create EC2 Network Secruity Group**. Security Group determines if network access is allowed. Your Security Group should permit `ssh` access. You can find information at http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html
+* **Create EC2 Network Secruity Group**. Security Group determines if network access is allowed. Your Security Group should permit `ssh` access. You can find information at https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html
 
 * **Choose EC2 Availability Zone**. You need to provide a `Availability Zone` for your VPC's network address range.
 
