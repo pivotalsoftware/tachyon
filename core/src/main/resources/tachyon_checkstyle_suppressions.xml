@@ -2,7 +2,7 @@
 
 <!DOCTYPE suppressions PUBLIC
     "-//Puppy Crawl//DTD Suppressions 1.1//EN"
-    "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+    "https://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
 
 <!-- TODO: This is needed to excuse Tachyon Configuration members' name from being checked -->
 <!-- because the members are define using all upper case. -->
